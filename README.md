@@ -1,4 +1,8 @@
-# frontend
+# Vue 3 simple authorization
+
+this application is for me to proof of concept, having simple register and login function. After login, user will see user only content is the front page.
+
+Work together with: https://github.com/devchristam/express-restfulapi-auth
 
 ## Project setup
 ```
