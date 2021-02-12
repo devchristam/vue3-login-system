@@ -1,26 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <FrontPage/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FrontPage from './components/FrontPage.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FrontPage
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import '../node_modules/bulma/css/bulma.min.css';
+  @import '../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css';
+  @import '../node_modules/@fortawesome/fontawesome-free/css/solid.css';
+  @import '../node_modules/@fortawesome/fontawesome-free/css/regular.css';
+  @import '../node_modules/@fortawesome/fontawesome-free/css/brands.css';
 </style>
