@@ -1,6 +1,6 @@
 # Vue 3 simple authorization
 
-this application is for me to proof of concept, having simple register and login function. After login, user will see user only content is the front page.
+this application is for me to proof of concept, having simple register and login function. using localstorage to store access token
 
 Work together with: https://github.com/devchristam/express-restfulapi-auth
 
